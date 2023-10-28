@@ -26,19 +26,43 @@ a{
     float: right;
     margin-right: 5px;
 }
+body{
+    background-color: #0dade2;
+}
 /* holdin the image and the text */
 .container{
     position: relative;
+    bottom: 0;
 }
-/* centering the text */
+img{
+    width: 100%;
+}
+/* centering the h1 */
 .centered{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* making the color transpernt to show the background color */
 h1{
     font-family:'Odibee Sans', sans-serif;
     font-size:160px;
-    color: aliceblue;
+    background: linear-gradient(45deg, #0dade2, #d4f3ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+/* styling the about section  */
+.left{
+    display: block;
+    padding-right: 50%;
+}
+p{
+    padding: 10px;
+    /* background-color: rgba(0, 0, 0, 0.764); */
+    color: #fff;
+    text-align: justify;
+    font-family: 'Cardo', serif;
+    font-size:20px;
 }
