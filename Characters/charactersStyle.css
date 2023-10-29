@@ -1,3 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
-    background-color: antiquewhite;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-family:'Odibee Sans', sans-serif;
+    font-size: 100px;
+    color: #fff;
 }
