@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background-color: #47d1ff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);
 }
 .thor{
     display: flex;
@@ -11,7 +12,7 @@ body{
     font-family:'Odibee Sans', sans-serif;
     font-size: 100px;
      padding: 50px;
-    text-decoration: underline;
+     color: #fff;
 }
 p{
     padding: 10px;
