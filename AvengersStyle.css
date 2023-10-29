@@ -5,8 +5,8 @@
 }
 header{
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);    width: 100%;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.385);
+    background: linear-gradient(90deg, rgb(32, 207, 255) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);    width: 100%;
+    border-bottom: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
 }
 /* li{
@@ -32,7 +32,7 @@ a{
     color: transparent; */
 }
 a:hover{
-    color: #ffffff;
+    color: #fe0000;
 }
 body{
     background: linear-gradient(45deg, #2692ae, #47d1ff, #000000);
@@ -44,6 +44,7 @@ body{
 .imgbg{
     width: 100%;
     height: 100%;
+    border-bottom:2px solid #fff;
 }
 /* centering the h1 */
 .centered{
@@ -62,9 +63,17 @@ h1{
     color: transparent;
 }
 p{
-    padding: 10px; 
+    padding: 20px; 
     color: #fff;
     text-align: justify;
     font-family: 'Cardo', serif;
     font-size:20px;
 }
+.footer_container{
+    position: relative;
+    display: flex;
+    justify-content: center; 
+}
+.white{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);    -webkit-background-clip: text;}
