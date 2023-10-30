@@ -15,11 +15,31 @@ body{
      color: #fff;
 }
 p{
-    padding: 10px;
+    display: flex;
     text-align: center;
     font-family: 'Cardo', serif;
     font-size: 24px;
     color: #fff;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.764);
+    height: 496px;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    p{
+        height: 700px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    p{
+        height: 1000px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    p{
+        height: 1000px;
+    }
 }
